@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.1'
 
+gem 'stock_quote'
 
 gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -34,6 +35,7 @@ gem 'sass-rails', '>= 3.2'
 
 gem 'will_paginate', '>= 3.1'
 gem 'will_paginate-bootstrap'
+
 
 ##gem 'bootstrap-will_paginate'
 
