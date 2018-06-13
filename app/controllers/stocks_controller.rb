@@ -6,7 +6,6 @@ class StocksController < ApplicationController
 			@stock = Stock.new_from_lookup(params[:stock])
 			flash.now[:danger] = "você digitou um simbolo incorreto" unless @stock
 		end	
-		end
 		render partial: 'users/result'
 	end
 end	
